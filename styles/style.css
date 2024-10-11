@@ -39,15 +39,15 @@
     padding: 10px 30px;
     text-align: center;
 }
-.products .new_products h2{
+.products  h2{
     font-family: yekan1;
     text-align: right;
-    margin-right: 15px;
+    margin: 10px 15px;
     font-size: 40px;
     color: #ffa500;
 }
 
-.products .new_products .katoni_new li{
+.products .new_products .katoni_new li ,.products .product_last .katoni_new li{
     display: inline-block;
     list-style-type: none;
     color: #b9b9b9;
@@ -71,4 +71,7 @@
     font-family: yekan1;
     text-align: justify;
     padding: 10px 10px;
+}
+.product_last{
+    margin-top: 35px;
 }
