@@ -21,14 +21,54 @@
 }
 .header .title{
     font-family: lalezar;
-    font-size: 30px;
+    font-size: 15px;
     padding: 10px;
     font-weight: bold;
     
 }
+
 .header .content{
     height: 800px;
     padding: 15px;
     background-color: #141213;
 }
 
+.products{
+    background-color: #141213;
+    margin-top: 790px;
+    padding: 10px 30px;
+    text-align: center;
+}
+.products .new_products h2{
+    font-family: yekan1;
+    text-align: right;
+    margin-right: 15px;
+    font-size: 40px;
+    color: #ffa500;
+}
+
+.products .new_products .katoni_new li{
+    display: inline-block;
+    list-style-type: none;
+    color: #b9b9b9;
+    margin: 10px 10px;
+    width: 270px;
+    height: 370px;
+    text-align: right;
+    background-color: #232222;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.katoni_new li img{
+    width: 270px;
+    height: 270px;
+    text-align: center;
+}
+
+.katoni_new li .text{
+    font-family: yekan1;
+    text-align: justify;
+    padding: 10px 10px;
+}
