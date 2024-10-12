@@ -75,3 +75,14 @@
 .product_last{
     margin-top: 35px;
 }
+
+.footer{
+    height: 100px;
+    background-color: #ffa500;
+    padding: 15px ;
+}
+.footer p {
+    text-align: center;
+    padding: 15px;
+    font: 30px yekan1 ;
+}
